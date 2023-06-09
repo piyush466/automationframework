@@ -11,3 +11,5 @@ class Test_001:
         self.lp.setusername(self.username)
         self.lp.setpassword(self.password)
         self.lp.clicklogin()
+        print("test")
+
