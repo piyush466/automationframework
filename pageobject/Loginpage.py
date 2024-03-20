@@ -13,8 +13,6 @@ class LoginP:
     def __init__(self,driver):
         self.driver =driver
 
-
-
     def setusername(self,username):
         self.driver.find_element(By.ID, self.email_Id).send_keys(username)
         time.sleep(2)
@@ -22,6 +20,8 @@ class LoginP:
     def setpassword(self,passowrd):
         self.driver.find_element(By.ID,self.password_Id).send_keys(passowrd)
         time.sleep(2)
+
+
 
 
     def clicklogin(self):
