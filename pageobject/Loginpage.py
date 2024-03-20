@@ -27,6 +27,7 @@ class LoginP:
     def clicklogin(self):
         self.driver.find_element(By.ID, self.button_id).click()
         time.sleep(2)
+        print("pass")
 
 
 
